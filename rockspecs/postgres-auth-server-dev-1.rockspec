@@ -10,9 +10,7 @@ dependencies = {
   "lecho",
   "lapis",
   "lyaml",
-  -- Latest luaposix fails to build, requires non-existent luke rock
-  -- Downgrade to a working version!
-  "luaposix == 34.0.1-1",
+  "luaposix",
   "luacrypto",
   "lua-crypt",
 }
