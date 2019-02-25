@@ -13,7 +13,7 @@ dependencies = {
   "lyaml",
   -- Latest luaposix fails to build, requires non-existent luke rock
   -- Downgrade to a working version!
-  "luaposix == 33.3.1-1",
+  "luaposix == 34.0.1-1",
   "luacrypto",
   "lua-crypt",
 }
